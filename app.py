@@ -22,21 +22,21 @@ with st.container():
       b1 = st.button("ABOUT ME")
       if b1 :
             engine.say(about_me)
-            engine.runAndWait()
+            #engine.runAndWait()
       st.empty()
       b2 = st.button("STRENGTH")
       if b2 :
             engine.say(strength)
-            engine.runAndWait()
+            #engine.runAndWait()
       st.empty()
       b3 = st.button("WEAKNESS")
       if b3 :
             engine.say(weakness)
-            engine.runAndWait()
+            #engine.runAndWait()
       st.empty()
       b4 = st.button("PROJECTION")
       if b4 :
             engine.say(projection)
-            engine.runAndWait()         
+            #engine.runAndWait()         
       st.empty()
      
