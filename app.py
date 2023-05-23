@@ -21,7 +21,7 @@ with st.container():
     with col4:
       b1 = st.button("ABOUT ME")
       if b1 :
-            st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/about?raw=true.mp3")
+            st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/about?raw=true.mp3",format='audio/ogg')
 
       st.empty()
       b2 = st.button("STRENGTH")
