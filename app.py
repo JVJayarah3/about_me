@@ -20,9 +20,9 @@ with st.container():
       st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
     with col4:
       b1 = st.button("ABOUT ME")
-      """if b1 :
-            engine.say(about_me)
-            #engine.runAndWait()"""
+      if b1 :
+            st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/about?raw=true.mp3")
+
       st.empty()
       b2 = st.button("STRENGTH")
       """if b2 :
