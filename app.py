@@ -9,7 +9,7 @@ st.write("TEST")
 about_me ="I am Jayaraj J V higly skilled petroleum engineer, have good command in Drilling, reservoir, completion and drilling software development. In programming point of view i have beginner to intermediate level of knowledge in python, data science, dashboard making, web application. I posses execellant problem solving capacity with quick desicion making skiill. i have a fond of providing roboust solution to the problem with project management. Next i would say, my biggest strength is active listening and fast learner means you dont have to spend much of your valuable time in training and supervising me. Finally the type of person i am means you will be getting someone in your team who is really hungry to learn, enthusiastic, self motivated and highly trustworthy. i am ready to start my work and i will never let you down. Thanks"
 strength = "my 5 biggest strengths are number one disciplined and focussed, number 2 flexible and verstile, number3 resourceful, number4, loyal and trustworthy and finally a collabrative worker"
 weakness = "one of my biggest weakness is i am very bad at giving people feedback, if someone ask me for feedback i would rather avoid it as i don't want to hurt their feeling. however i do appreciate that feedback is an essential part of self development. i have been trying improve in this area by forcing myself to give people feedback"
-projection = "i have two project to do "
+projection = "Presently i have three different project, on which i am working on number 1 well life which deals with the entire lifecycle of well from planning to abandonment. The main aim of this project is to showcase dashbord kind of out to the client from report throughout the entire life of well. number 2 is presenter this one is apart from the energy industry, the main aim of this is to make a short presentation from a large report and lastly matmate this is amied to give a real time support to client on finding the best solution to the equipment's problem by sorting the nearest available vendors and optimising solution"
 
 engine = pyttsx3.init()
 with st.container():
@@ -39,7 +39,4 @@ with st.container():
             engine.say(projection)
             engine.runAndWait()         
       st.empty()
-      b5 = st.button("REASONS")
-      if b5 :
-            engine.say(reasons)
-            engine.runAndWait()       
+     
