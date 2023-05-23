@@ -26,19 +26,25 @@ with st.container():
             st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/about.mp3?raw=true",format='audio/ogg')
 
       st.empty()
+      """
+      
+      """
       b2 = st.button("STRENGTH")
-      """if b2 :
-            engine.say(strength)
-            #engine.runAndWait()"""
+      if b2 :
+            st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/strength.mp3?raw=true",format='audio/ogg')
+
       st.empty()
+      """
+      
+      """
       b3 = st.button("WEAKNESS")
-      """if b3 :
-            engine.say(weakness)
-            #engine.runAndWait()"""
+      st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/weakness.mp3?raw=true",format='audio/ogg')
+
       st.empty()
+      """
+      
+      """   
       b4 = st.button("PROJECTION")
-      """if b4 :
-            engine.say(projection)
-            #engine.runAndWait()"""         
-      st.empty()
+      st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/projection.mp3?raw=true",format='audio/ogg')
+
      
