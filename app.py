@@ -21,7 +21,7 @@ with st.container():
     with col4:
       b1 = st.button("ABOUT ME")
       if b1 :
-            audio_about = open("https://github.com/JVJayarah3/about_me/blob/main/video/about?raw=true.mp3",'rb')
+            audio_about = open("https://github.com/JVJayarah3/about_me/blob/main/video/about.mp3?raw=true",'rb')
             audio_about_1 = audio_about.read()
             st.audio(audio_about_1,format='audio/ogg')
 
