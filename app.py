@@ -38,13 +38,15 @@ with st.container():
       
       """
       b3 = st.button("WEAKNESS")
-      st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/weakness.mp3?raw=true",format='audio/ogg')
+      if b3:
+        st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/weakness.mp3?raw=true",format='audio/ogg')
 
       st.empty()
       """
       
       """   
       b4 = st.button("PROJECTION")
-      st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/projection.mp3?raw=true",format='audio/ogg')
+      if b4:
+        st.audio("https://github.com/JVJayarah3/about_me/blob/main/video/projection.mp3?raw=true",format='audio/ogg')
 
      
