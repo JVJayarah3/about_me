@@ -12,7 +12,7 @@ weakness = "one of my biggest weakness is i am very bad at giving people feedbac
 projection = "Presently i have three different project, on which i am working on number 1 well life which deals with the entire lifecycle of well from planning to abandonment. The main aim of this project is to showcase dashbord kind of out to the client from report throughout the entire life of well. number 2 is presenter this one is apart from the energy industry, the main aim of this is to make a short presentation from a large report and lastly matmate this is amied to give a real time support to client on finding the best solution to the equipment's problem by sorting the nearest available vendors and optimising solution"
 with st.container():
     col1,col2,col3,col4= st.columns([1,1,8,1])
-    with col2:
+    with col3:
         st.title("ABOUT ME")
 #engine = pyttsx3.init()
 with st.container():
