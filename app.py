@@ -13,7 +13,7 @@ projection = "Presently i have three different project, on which i am working on
 with st.container():
     col1,col2,col3,col4,col5= st.columns([1,1,1,1,1])
     with col3:
-        st.title("ABOUT ME")
+        st.title("ABOUT ME - Jayaraj J V")
 #engine = pyttsx3.init()
 with st.container():
     col1,col2,col3,col4= st.columns([3.5,1,1,1])
