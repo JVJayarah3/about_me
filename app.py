@@ -1,7 +1,7 @@
 import streamlit as st
 import pyttsx3
 st.set_page_config(layout='wide')
-st.write("TEST")
+st.title("ABOUT ME")
 #video_file = open("/main/video/test.mp4")
 #https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4
 #video_bytes = video_file.read()
