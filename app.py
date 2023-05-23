@@ -1,9 +1,10 @@
 import streamlit as st
+st.set_page_config(layout='wide')
 st.write("TEST")
 #video_file = open("/main/video/test.mp4")
 #https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4
 #video_bytes = video_file.read()
-st.set_page_config(layout='wide')
+
 with st.container():
     col1,col2,col3,col4 = st.columns(4)
     with col1:
