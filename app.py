@@ -34,7 +34,7 @@ with st.container():
             engine.say(weakness)
             engine.runAndWait()
       st.empty()
-      b4 = st.button("PROJECTION
+      b4 = st.button("PROJECTION")
       if b4 :
             engine.say(projection)
             engine.runAndWait()         
