@@ -4,7 +4,7 @@ st.write("TEST")
 #https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4
 #video_bytes = video_file.read()
 with st.container():
-    col1,col2,col3,col4 = st.columns([7,3,4,2])
+    col1,col2,col3,col4 = st.columns(4)
     with col1:
       st.video("https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4?raw=true")
     with col2:
