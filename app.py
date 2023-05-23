@@ -28,7 +28,7 @@ with st.container():
       if b2 :
             engine.say(strength)
             engine.runAndWait()
-        st.empty()
+      st.empty()
       b3 = st.button("WEAKNESS")
       if b3 :
             engine.say(weakness)
