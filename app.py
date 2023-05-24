@@ -19,7 +19,7 @@ with st.container():
     col1,col2,col3,col4= st.columns([3.5,1,1,1])
     with col1:
       #st.video("https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4?raw=true")
-       st.image("https://github.com/JVJayarah3/about_me/blob/main/video/2.jpg?raw=true")
+       st.image("https://github.com/JVJayarah3/about_me/blob/main/video/a.jpg?raw=true")
     with col3:
       st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
     with col4:
