@@ -17,13 +17,13 @@ projection = "Presently i have three different project, on which i am working on
 #engine = pyttsx3.init()
 st.title("ABOUT ME - Jayaraj J V")
 with st.container():
-    col1,col2= st.columns([2,1])
+    col1,col2,col3= st.columns([2,1,1])
     with col1:
       #st.video("https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4?raw=true")
        st.image("https://github.com/JVJayarah3/about_me/blob/main/video/a.jpg?raw=true")
-    #with col3:
-      #st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
     with col2:
+      #st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
+    with col3:
       b1 = st.button("ABOUT ME")
       if b1 :
             #audio_about = open("https://github.com/JVJayarah3/about_me/blob/main/video/about.mp3?raw=true",'rb')
