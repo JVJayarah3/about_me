@@ -20,8 +20,8 @@ with st.container():
     with col1:
       #st.video("https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4?raw=true")
        st.image("https://github.com/JVJayarah3/about_me/blob/main/video/a.jpg?raw=true")
-    with col3:
-      st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
+    #with col3:
+      #st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
     with col4:
       b1 = st.button("ABOUT ME")
       if b1 :
