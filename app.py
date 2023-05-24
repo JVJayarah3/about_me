@@ -1,6 +1,6 @@
 import streamlit as st
 import pyttsx3
-#st.set_page_config(layout='wide')
+st.set_page_config(layout='wide')
 
 #video_file = open("/main/video/test.mp4")
 #https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4
@@ -16,13 +16,13 @@ with st.container():
         st.title("ABOUT ME - Jayaraj J V")
 #engine = pyttsx3.init()
 with st.container():
-    col1,col2,col3,col4= st.columns([5,0.1,0.1,1])
+    col1,col2= st.columns([4,1])
     with col1:
       #st.video("https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4?raw=true")
        st.image("https://github.com/JVJayarah3/about_me/blob/main/video/a.jpg?raw=true")
     #with col3:
       #st.image("https://github.com/JVJayarah3/about_me/blob/main/video/drillstring.JPG?raw=true")
-    with col4:
+    with col2:
       b1 = st.button("ABOUT ME")
       if b1 :
             #audio_about = open("https://github.com/JVJayarah3/about_me/blob/main/video/about.mp3?raw=true",'rb')
