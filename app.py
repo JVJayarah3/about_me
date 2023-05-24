@@ -1,6 +1,6 @@
 import streamlit as st
 import pyttsx3
-st.set_page_config(layout='wide')
+#st.set_page_config(layout='wide')
 
 #video_file = open("/main/video/test.mp4")
 #https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4
