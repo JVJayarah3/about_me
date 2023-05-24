@@ -16,7 +16,7 @@ with st.container():
         st.title("ABOUT ME - Jayaraj J V")
 #engine = pyttsx3.init()
 with st.container():
-    col1,col2= st.columns([4,1])
+    col1,col2= st.columns([7,1])
     with col1:
       #st.video("https://github.com/JVJayarah3/about_me/blob/main/video/test.mp4?raw=true")
        st.image("https://github.com/JVJayarah3/about_me/blob/main/video/a.jpg?raw=true")
