@@ -10,11 +10,12 @@ about_me ="I am Jayaraj J V higly skilled petroleum engineer, have good command 
 strength = "my 5 biggest strengths are number one disciplined and focussed, number 2 flexible and verstile, number3 resourceful, number4, loyal and trustworthy and finally a collabrative worker"
 weakness = "one of my biggest weakness is i am very bad at giving people feedback, if someone ask me for feedback i would rather avoid it as i don't want to hurt their feeling. however i do appreciate that feedback is an essential part of self development. i have been trying improve in this area by forcing myself to give people feedback"
 projection = "Presently i have three different project, on which i am working on number 1 well life which deals with the entire lifecycle of well from planning to abandonment. The main aim of this project is to showcase dashbord kind of out to the client from report throughout the entire life of well. number 2 is presenter this one is apart from the energy industry, the main aim of this is to make a short presentation from a large report and lastly matmate this is amied to give a real time support to client on finding the best solution to the equipment's problem by sorting the nearest available vendors and optimising solution"
-with st.container():
-    col1,col2= st.columns(2)
-    with col2:
+#with st.container():
+ #   col1,col2= st.columns(2)
+  #  with col2:
         st.title("ABOUT ME - Jayaraj J V")
 #engine = pyttsx3.init()
+st.title("ABOUT ME - Jayaraj J V")
 with st.container():
     col1,col2= st.columns(2)
     with col1:
